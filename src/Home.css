@@ -4,6 +4,13 @@
   margin-bottom: -150px;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
+.home__container {
+  display: flex;
+  overflow: hidden;
+}
+/* .slider__icon {
+  font-size: 65px;
+} */
 .home__row {
   display: flex;
   z-index: 1;

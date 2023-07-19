@@ -1,28 +1,3 @@
-// import React from "react";
-// import MenuIcon from "@mui/icons-material/Menu";
-// import "./Navlinks.css";
-// // import { toast } from "react-toastify";
-// import { toast, ToastContainer } from "react-toastify";
-// import "react-toastify/dist/ReactToastify.css";
-// import { configure as configureToast } from "react-toastify";
-
-// configureToast();
-
-// const Navlinks = () => {
-//   // const notify = () => {
-//   //   toast.info(
-//   //     "This page is in Maintenance !!!",
-//   //     { position: toast.POSITION.TOP_CENTER },
-//   //     {}
-//   //   );
-//   // };
-// const notify = () => {
-//   toast.configure({
-//     position: toast.POSITION.TOP_CENTER,
-//   });
-//   toast.info("This page is in Maintenance !!!");
-// };
-
 import React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import "./Navlinks.css";
@@ -58,9 +33,7 @@ const Navlinks = () => {
           <span className="navlinks__fill__link navlink__link" onClick={notify}>
             Pet Supplies
           </span>
-          <span className="navlinks__fill__link navlink__link" onClick={notify}>
-            {" "}
-            Books
+          <span className="navlinks__fill__link navlink__link" onClick={notify}> Books
           </span>
           <span className="navlinks__fill__link navlink__link" onClick={notify}>
             Health & Household Products
@@ -72,15 +45,12 @@ const Navlinks = () => {
             Livestreams
           </span>
           <span className="navlinks__fill__link navlink__link" onClick={notify}>
-            {" "}
             Amazon Basics
           </span>
           <span className="navlinks__fill__link navlink__link" onClick={notify}>
-            {" "}
             Free Shipping
           </span>
           <span className="navlinks__fill__link navlink__link" onClick={notify}>
-            {" "}
             Beauty & Personal Care
           </span>
         </div>

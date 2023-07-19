@@ -1,6 +1,6 @@
 .navlinks {
   color: #ffffff;
-  padding: 0px 0px 0px 10px;
+  padding: 0px 0px 0px 5px;
   height: 40px;
   background-color: #232f3e;
   min-width: 800px;
@@ -20,10 +20,27 @@
 .navlink__link {
   box-sizing: content-box;
   min-width: max-content;
-  margin: auto 10px;
+  margin: auto 4px;
   cursor: pointer;
   font-size: 14px;
 }
+
+.navlinks__left__menu,
+.navlinks__left__all,
+.navlinks__fill__link {
+  /* Add regular border styles */
+  border: 1px solid transparent;
+  padding: 5px;
+  /* transition: border-color 0.3s; */
+}
+
+.navlinks__left__menu:hover,
+.navlinks__left__all:hover,
+.navlinks__fill__link:hover {
+  /* Add border styles on hover */
+  border: 1px solid #ffffff; /* Adjust the border color and other properties as desired */
+}
+
 .navlinks__left__menu {
   padding-top: 5px;
   margin-right: 1px;
