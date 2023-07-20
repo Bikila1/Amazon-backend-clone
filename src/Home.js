@@ -4,6 +4,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./Home.css";
+import amazonall from "../src/images/Amazon-all.jpg";
 import alexa from "../src/images/alexa.jpg";
 import asianpacific from "../src/images/asian-pacific.jpg";
 import earthday from "../src/images/earth-day.jpg";
@@ -16,10 +17,10 @@ function Home() {
   //     "https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg",
   //     "https://m.media-amazon.com/images/I/61l316SGmuL._SX3000_.jpg",
   //     "https://m.media-amazon.com/images/I/61ZxL5rpLTL._SX3000_.jpg",
-  //
-  //     // "https://m.media-amazon.com/images/I/71Nmgj6nl0L._SX3000_.jpg",
-  //
-  //     // "https://m.media-amazon.com/images/I/611Hit0i2SL._SX3000_.jpg",
+  
+  //     "https://m.media-amazon.com/images/I/71Nmgj6nl0L._SX3000_.jpg",
+  
+  //     "https://m.media-amazon.com/images/I/611Hit0i2SL._SX3000_.jpg",
   //   ];
   // const goToPreviousSlide = () => {
   //   setCurrentSlide((prevSlide) =>
@@ -51,36 +52,17 @@ function Home() {
           infiniteLoop={true}
           showThumbs={false}
         >
-          <img
-            className="home__image _cropped-image-link_style_fluidLandscapeImage__3eTVC 
- _cropped-image-link_style_fluidImage__iJ3aE"
+          {/* <img
+            className="home__image"
             src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
             alt=""
-          />
-          <img
-            className="home__image _cropped-image-link_style_fluidLandscapeImage__3eTVC 
- _cropped-image-link_style_fluidImage__iJ3aE"
-            src={alexa}
-            alt="#"
-          />
-          <img
-            className="home__image _cropped-image-link_style_fluidLandscapeImage__3eTVC 
- _cropped-image-link_style_fluidImage__iJ3aE"
-            src={asianpacific}
-            alt="#"
-          />
-          <img
-            className="home__image _cropped-image-link_style_fluidLandscapeImage__3eTVC 
- _cropped-image-link_style_fluidImage__iJ3aE"
-            src={earthday}
-            alt="#"
-          />
-          <img
-            className="home__image _cropped-image-link_style_fluidLandscapeImage__3eTVC 
- _cropped-image-link_style_fluidImage__iJ3aE"
-            src={hispanicgoods}
-            alt="#"
-          />
+          /> */}
+          <img className="home__image" src={amazonall} alt="#" />
+          <img className="home__image" src={alexa} alt="#" />
+          <img className="home__image" src={earthday} alt="#" />
+
+          <img className="home__image" src={asianpacific} alt="#" />
+          <img className="home__image" src={hispanicgoods} alt="#" />
         </Carousel>
         <FaChevronRight className="slider-icon" />
       </div>
